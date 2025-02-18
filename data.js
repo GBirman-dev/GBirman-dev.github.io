@@ -1,0 +1,286 @@
+
+
+
+
+export const navMenu = [
+    { id: 1, name: "About", link: '#about' },
+    { id: 2, name: "UI/UX Projects", link: '#ui-ux-projects' },
+    { id: 3, name: "Testimonials", link: '#testimonials' },
+    { id: 4, name: "Other Cases", link: '#others' },
+];
+export const mobileNavMenu = [
+    { name: "Homepage", link: '/' },
+    { name: "About", link: '#about' },
+    { name: "UI/UX Projects", link: '#uiux' },
+    { name: "Tanaruz application", link: '#tanaruz' },
+    { name: "LeadMind agency", link: '#leadmind' },
+    { name: "RawIdea", link: '#rawidea' },
+    { name: "Testimonials", link: '#testimonials' },
+    { name: "Fun fact ", link: '#others' },
+];
+
+export const socialIcons = [
+    { name: 'linkedin', link: '#', icon: '/assets/icons/linkedin.svg' },
+    { name: 'telegram', link: '#', icon: '/assets/icons/telegram.svg' },
+    { name: 'whatsapp', link: '#', icon: '/assets/icons/reach-out-whatsapp.svg' },
+];
+
+export const skills = [
+    {name:'Figma', icon: '/assets/icons/24.png'},
+    {name: 'Notion', icon: '/assets/icons/25.png'},
+    {name:'Adobe', icon: '/assets/icons/24.png'},
+    {name:'WixStudio', icon: '/assets/icons/25.png'},
+]
+
+export const desginProcess = [
+    {
+        img: '/assets/digits/count-red.webp',
+        heading: 'Step 1: Product design Research',
+        text: 'I enjoy listening and trying to understand the client in depth to help them realise their product. By navigating the design thinking process or applying the double diamond framework, I iterate on my ideas and, alongside that, collaborate with professionals to generate robust insights that propel the project forward.'
+    },
+    {
+        img: '/assets/digits/count-mix.webp',
+        heading: 'Step 2: UI design and prototyping in figma',
+        text: 'With a solid familiarity with Tailwind style guidelines, I am adaptable and open to working with various design frameworks. My passion lies in creating and refining components, striving for pixel-perfect precision in every detail. Additionally, I love crafting jaw-dropping prototypes that captivate users.'
+    },
+    {
+        img: '/assets/digits/count-blue.webp',
+        heading: 'Step 3: No-code dev. or collaborative dev',
+        text: 'I primarily rely on my own abilities and have experience with various CMS platforms. I started with WordPress and eventually transitioned to WixStudio. Nevertheless, I am a team player who understands the language of IT and can easily connect with anyone involved in coding.'
+    },
+];
+
+
+export const projects = [
+    {
+        name: 'Borgplaats Platform',
+        id: 'tanaruz',
+        link: '/borgplaats',
+        number: '/assets/digits/Count-1.webp',
+        text: 'Online market place for unique real estate listings in the Netherlands.',
+        img: "/assets/project-thumbnails/Borgplaats-platform-1.webp",
+        backgroundColor: '#92ACB9'
+    },
+    {
+        name: 'LeadMind agency',
+        id: 'leadmind',
+        link: '/leadmind',
+        number: '/assets/digits/Count-2.webp',
+        text: 'Kickoff 2024: new lock, new strategies, road to success.',
+        img: "/assets/project-thumbnails/LeadMind-website-project-2.webp",
+        backgroundColor:"#59829E"
+    },
+    {
+        name: 'RawIdea',
+        id: 'rawidea',
+        link: '/rawidea',
+        number: '/assets/digits/Count-3.webp',
+        text: 'Working with talents: rebranding and creating stunning visuals.',
+        img: "/assets/project-thumbnails/RawIdea-website-project-3.webp",
+        backgroundColor:"#0C293D"
+    },
+]
+
+
+export const testimonials = [
+  {
+    text: "⚡️ Through years of hard and dedicated work, George has become the backbone of our agency. His creativity and methodical approach to the given tasks and challenges have helped our agency reach new horizon.",
+    name: "Seth James Haringa",
+    title: "Co-Founder & Director of LeadMind Agency",
+    img: '/assets/covers-profiles/Seth-feedback-1.webp',
+  },
+  {
+    text: "💪🏻 Thanks to George's relentless efforts and amazing input, BreadChaser has transitioned from a vision to reality. It's been fun working together, and there is still much more to come.",
+    name: "Alexander Krut",
+    title: "Dynamic Full-Stack & AI app Developer",
+    img: '/assets/covers-profiles/Alex-feedback-2.webp',
+  },
+  {
+    text: "✌🏻 I’m grateful for the opportunity to contribute to the real project, learn how to work in a team, and receive good guidance. Thank you, George.",
+    name: "Leroy Ng",
+    title: "CMD Graduate",
+    img: '/assets/covers-profiles/Leroy-feedback-3.webp',
+  },
+  {
+    text: "🎨 During my internship at LeadMind, George was my mentor. The one-on-one meetings were helpful for me as I received constructive feedback that made me feel more motivated and inspired.",
+    name: "Delia Popa",
+    title: "UX Intern",
+    img: '/assets/covers-profiles/Delia-feedback-4.webp',
+  },
+  {
+    text: "📸  George showcased his skills in creating stunning visual content for one of our projects. Working alongside him was a pleasure; he truly listens and puts in his best effort to deliver astonishing results. Thanks to him and his team, our company is thriving.",
+    name: "Jeffrey De Jong",
+    title: "Head of SDR",
+    img: '/assets/covers-profiles/jeffry.png',
+  },
+  {
+    text: "🎓 After completing the graduation project, the client was very happy with the results delivered by George. You were a nice student to work with; you were always willing to engage during our program and eager to learn. Continue to develop your skills in the field of UX design. I wish you a successful career ahead.",
+    name: "Fenne van Doorn",
+    title: "Mentor from The Hague University",
+    img: '/assets/covers-profiles/fenne.png',
+  },
+  {
+    text: "👍🏻 After completing the graduation project, the client was very happy with the results delivered by George. You were a nice student to work with; you were always willing to engage during our program and eager to learn. Continue to develop your skills in the field of UX design. I wish you a successful career ahead.",
+    name: "Alexandru Vasilachi",
+    title: "UX/UI Intern",
+    img: '/assets/covers-profiles/alexander.png',
+  },
+  {
+    text: "🙌🏼 I can always go to him for feedback. Thanks to George and the rest of the LeadMind team, I really appreciate their company culture, which is built on helping each other. It's an amazing team to work with, providing great feedback and fostering a wonderful atmosphere.",
+    name: "Lorenzo Jagessar",
+    title: "CMD Graduate",
+    img: '/assets/covers-profiles/lorenzo.png',
+  },
+];
+
+
+export const footerIcons = [
+    {link: '/', icon: '/assets/icons/linkedin-footer.png'},
+    {link: '/', icon: '/assets/icons/telegram-footer.png'},
+    {link: '/', icon: '/assets/icons/whatsapp-footer.png'},
+];
+
+export const videos = [
+    { name: 'max', link:'/', video: '/assets/extra-cases/max-sons-start-1.webm' },
+    { name: 'somi', link:'/', video: '/assets/extra-cases/somi-landing-page-2.webm' },
+    { name: 'tanaruz', link:'/', video: '/assets/extra-cases/tanaruz-website-3.webm' },
+    { name: 'tanaruzApp', link:'/', video: '/assets/extra-cases/tanaruz-app-4.webm' },
+    { name: 'vondell', link:'/', video: '/assets/extra-cases/vondellaanvastgoed-5.webm' },
+    { name: 'reunion', link:'/', video: '/assets/extra-cases/reunion-international-6.webm' },
+    { name: 'hestiva', link:'/', video: '/assets/extra-cases/hestiva-platform-7.webm' },
+    { name: 'breadchaser', link:'/', video: '/assets/extra-cases/breadchaser-plug-in-8.webm' },
+    { name: 'fwsm', link:'/', video: '/assets/extra-cases/fwsm-platform-9.webm' },
+    { name: 'inme', link:'/', video: '/assets/extra-cases/in-me-website-10.webm' },
+];
+
+export const borgplaatsWorkflow = [
+    {
+        title: 'emphasize',
+        text: 'I began by analyzing the real estate market using various research platforms and tools. This included examining market trends, user behaviors, and industry-specific challenges. I utilized platforms like Funda, Palarius and Huurwonning which offers comprehensive market analysis and user-friendly dashboards for real estate professionals. This allowed me to gain insights into current market dynamics and user needs. Based on the initial research, I developed a strategic plan for the platform redesign. This included setting clear objectives, defining key performance indicators (KPIs), and outlining the overall design direction. A crucial part of the empathize phase was reaching out to different stakeholders involved in the project. This included: investors, landlords, tenants and real estate agents.',
+        points: ["Market Research", "Competitor Analysis", "Strategy planning", "Insights"],
+    },
+    {
+        title: 'ideate',
+        text: "In the ideate phase, I focused on creative problem-solving and concept development. Through multiple brainstorming sessions, I iterated on various concepts, refining my ideas based on user insights. Then I have created a comprehensive site map to structure the platform's information architecture effectively. A new logo was designed to reflect the platform's modern approach to real estate. Finally, I developed a cohesive Visual Style Guide, establishing color schemes, typography, and design elements to ensure consistency across the platform.",
+        points: ["Iteration on concepts", "Site mapping", "New logo","Visual Style Guide"],
+    },
+    {
+        title: 'test',
+        text: "In the test phase, I focused on validating my design through key activities. I mapped out user flows to optimize navigation for common tasks like property searches and listings. Starting with low-fidelity wireframes, I progressed to high-fidelity prototypes that closely mirrored the final product. Then I have integrated real estate content to create a realistic testing environment and conducted user testing with diverse participants. This process helped me to identify usability issues and refine my design, ensuring the final platform effectively met user needs.",
+        points: ["User flow", "From Low-Fidelity to High-Fidelity prototyping","Content Integration", "User testing"],
+    },
+];
+
+export const responsibleCardsDetails = [
+    {
+        icon: '/assets/project-thumbnails/borgplaats-icons/research.svg',
+        heading: 'research',
+        text: "As a UX/UI designer, I initiated comprehensive research for the real estate marketpool by conducting in-depth interviews with leasing agents and potential users. I developed detailed user personas that captured the core needs and behaviors of our target audience. Through multiple usability testing rounds, I identified critical pain points in the existing platform's user experience. Leveraging Google Analytics, I gathered data-driven insights into user interactions and navigation patterns."
+    },
+    {
+        icon: '/assets/project-thumbnails/borgplaats-icons/design.svg',
+        heading: 'design',
+        text: "In the design stage for the real estate platform, I developed multiple themes drawing inspiration from competitor style guides and contemporary design trends. I carefully analyzed the visual language of leading platforms in the industry, identifying effective elements and areas for improvement. Simultaneously, I incorporated Dutch design principles, known for their minimalism, functionality, and bold use of color, to create a distinctive visual identity. This fusion resulted in a unique aesthetic that balanced modern UI trends with local cultural elements, setting our platform apart in the market."
+    },
+    {
+        icon: '/assets/project-thumbnails/borgplaats-icons/hand-off.svg',
+        heading: 'hand-off',
+        text: "As a UX/UI designer, I initiated comprehensive research for the real estate marketpool by conducting in-depth interviews with leasing agents and potential users. I developed detailed user personas that captured the core needs and behaviors of our target audience. Through multiple usability testing rounds, I identified critical pain points in the existing platform's user experience. Leveraging Google Analytics, I gathered data-driven insights into user interactions and navigation patterns."
+    },
+];
+export const leadmindWorkflow = [
+    {
+        title: 'discover',
+        text: 'In the Discovery phase for LeadMind, I conducted a comprehensive brief to gather essential project information and performed thorough market research to identify industry trends. I carried out a detailed competitor analysis to pinpoint strengths and weaknesses in the design agency landscape, ensuring a competitive advantage for LeadMind. To achieve these results, I employed a variety of research methods, including stakeholder interviews, usability testing, surveys, and expert reviews. Finally, I collected all necessary technical requirements to effectively address the functional aspects of the project, positioning LeadMind as a leader in the field.',
+        points: ["Interviews", "Usability testing", "Competitor Analysis","Survey Expert", "reviewing"],
+    },
+    {
+        title: 'define',
+        text: "Through meticulous research, I identified the key challenges the agency was facing at that time. By employing crucial methods such as problem statement creation, user persona development, affinity mapping, and a 'How Might We' workshop, I generated innovative solutions and uncovered solid insights. These insights ultimately guided me in the right direction for addressing LeadMind's unique challenges and opportunities.",
+        points: ["Problem statement","User persona","Affinity mapping","HMW workshop"],
+    },
+    {
+        title: 'develop',
+        text: "In the Develop stage, I focused on refining LeadMind's brand identity and crafting a comprehensive UX strategy based on insights from the previous stage. I created wireframes to map out the website's structure and flow, then developed a visual style guide closely aligned with LeadMind's brand identity. Subsequently, I designed and implemented components into the first high-fidelity concept, bringing the refined strategy to life in a tangible form.",
+        points: ["Wire-frames","Style-guide","Components Concept"],
+    },
+    {
+        title: 'deliver',
+        text: "In the Delivery phase, I created high-fidelity prototypes of the LeadMind’s agency website, implementing responsive design and integrating their content to enhance user engagement. I gathered final feedback, refined the design, and proofread the content. Finally, I delivered the necessary assets with documented specifications to developers, ensuring efficient project execution.",
+        points: ["High-Fidelity", "Prototyping Feedback", "session Proofreading","Instruction"],
+    },
+];
+
+export const leadmindCardsDetails = [
+    {
+        icon: '/assets/project-thumbnails/leadmind/stats.svg',
+        heading: 'analysis',
+        text: "Throughout this project as a UX/UI designer, I conducted thorough research, uncovering valuable insights that sparked meaningful discussions with stakeholders. After reaching a consensus on key points, I strategically implemented the necessary elements for the project, leveraging my analysis to inform design decisions. This approach ensured that the final product was both data-driven and aligned with LeadMind's objectives."
+    },
+    {
+        icon: '/assets/project-thumbnails/leadmind/talk.svg',
+        heading: 'creative session',
+        text: "I facilitated a well-structured creative session that fostered productive discussions on key design points. One significant point of debate was the pricing section on the website. I firmly advocated for retaining this section, emphasizing its importance in demonstrating transparency for our pricing packages and service offerings. This general agreement laid a solid foundation for our design, ensuring the project could progress effectively and efficiently."
+    },
+    {
+        icon: '/assets/project-thumbnails/leadmind/launch.svg',
+        heading: 'execution',
+        text: "After synthesizing the collective data, I refined my concept into a final high-fidelity product and obtained stakeholder approval, ensuring content-design alignment. I provided clear visual and documented instructions to the development team, monitoring their progress throughout implementation. To maintain design integrity, I offered feedback documentation to the developers, guiding them on aligning their code more closely with the intended design."
+    },
+];
+
+export const ourTeam = [
+    {
+        name: 'george birman',
+        title: 'lead ui/ux designer',
+        portfolio: 'UX, Market Research, Strategy, Backlog and Communication with the Stakeholders.'
+    },
+    {
+        name: 'IVAN KUZNIETSOV',
+        title: 'ui/ux designer',
+        portfolio: 'UX/UI, Functional Prototyping, Visual Concept.'
+    },
+    {
+        name: 'Gabriel Obianyor',
+        title: 'creative ui/ux designer',
+        portfolio: 'Branding, Logo Design..'
+    },
+   
+];
+
+export const rawIdeaWorkflow = [
+    {
+        title: 'discovery',
+        text: "In the Discovery phase, we began by conducting a comprehensive brief to gather all essential information about RAW Idea's project goals and expectations. We then carried out thorough market research to understand the 3D technology landscape and identify trends that could position RAW Idea as a leader in the field. To ensure a competitive advantage, we performed a detailed competitor analysis, pinpointing the strengths and weaknesses of other companies in the industry. Finally, we gathered all necessary technical requirements to address the functional aspects of the project effectively.",
+        points: ["Brief", "Market Research", "Competitor Analysis", "Technical Requirements", "Gathering"],
+    },
+    {
+        title: 'strategy',
+        text: "During the Strategy phase, we focused on defining and refining RAW Idea's brand identity to ensure consistency across their digital presence. Our team developed a user experience (UX) strategy and created wireframes to map out the website’s structure and flow, tailored specifically to RAW Idea's needs. We organized and structured the content through information architecture planning, making the website intuitive and easy to navigate for their target audience. Additionally, we created a visual style guide to maintain design consistency throughout the website, aligning it closely with RAW Idea's brand identity.",
+        points: ["Brand Identity Definition", "UX Strategy and Wireframing","Information Architecture Planning", "Visual Style Guide Creation"],
+    },
+    {
+        title: 'solutions',
+        text: "In the Solutions phase, we brought all elements together to create the final product. We developed high-fidelity prototypes that allowed RAW Idea to visualize the final design and provide feedback before development began. Our team then implemented responsive web design to ensure a seamless user experience across all devices. We integrated the content provided by RAW Idea into the website, aligning it with the design to enhance user engagement. Finally, we conducted a final design refinement and successfully launched the website, delivering a polished, fully functional product that perfectly met RAW Idea's needs and expectations.",
+        points: ["High-Fidelity Prototyping","Responsive Web Design Implementation","Content Integration", "Final Design Refinement and Launch"],
+    },
+    
+];
+
+export const rawIdeaCardsDetails = [
+    {
+        icon: '/assets/project-thumbnails/rawidea/strategy.svg',
+        heading: 'strategy',
+        text: "As for UX part, I was responsible for defining clear project goals and ensuring that the design efforts align with these objectives. I have assisted in setting project timelines, defining deliverables, and estimating the scope of work. Additionally, I collaborate closely with project managers and the developer team to ensure that UX activities are synchronized with overall project milestones and goals."
+    },
+    {
+        icon: '/assets/project-thumbnails/rawidea/marketResearch.svg',
+        heading: 'user and market research',
+        text: "I have conducted an extensive user and market research, I have shared all the findings with the team. Research consisted of: Competitor analysis, User pain points, market trends and opportunities for improvement. Furthermore, together we re-evaluated all findings and discussed them within the team. After highlighting the crusial insights, our team was ready to undertake the challenge. "
+    },
+    {
+        icon: '/assets/project-thumbnails/rawidea/stakeholder.svg',
+        heading: 'stakeholder communication',
+        text: "I ensured the project stayed on track by keeping stakeholders and developers aligned with deadlines and requirements. I advocated for user needs throughout the design process, ensuring our solutions met both business goals and user expectations. I managed requirements effectively and adjusted strategies as needed to overcome challenges. Additionally, I supported and represented the design team to maintain a cohesive vision and resolve any issues that arose."
+    },
+];
