@@ -1,11 +1,26 @@
+# georgebirman.com
 
-  # Recreate Portfolio Landing Page
+Personal portfolio of Georgi Birman — Product Owner & Senior Product Designer.
 
-  This is a code bundle for Recreate Portfolio Landing Page. The original project is available at https://www.figma.com/design/3XTRT6IWRfCO3eyyDzzJ00/Recreate-Portfolio-Landing-Page.
+Built with Vite, React, TypeScript, and Tailwind CSS. Deployed to GitHub Pages via GitHub Actions on every push to `main`.
 
-  ## Running the code
+## Development
 
-  Run `npm i` to install the dependencies.
+```bash
+npm install
+npm run dev
+```
 
-  Run `npm run dev` to start the development server.
-  
+## Build
+
+```bash
+npm run build
+```
+
+The build outputs to `dist/`. A post-build step (`scripts/postbuild.mjs`) emits a static `index.html` per route with route-specific metadata, so deep links return HTTP 200 on GitHub Pages, and copies `index.html` to `404.html` as the SPA fallback.
+
+## Structure
+
+- `src/app/` — pages and components (`HomePage`, project case studies under `projects/`)
+- `public/` — static assets, resume PDF, favicon, OG image, `robots.txt`, `sitemap.xml`, `CNAME`
+- `.github/workflows/deploy.yml` — build and deploy pipeline

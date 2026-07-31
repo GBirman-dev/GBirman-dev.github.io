@@ -4,7 +4,7 @@ export function Results() {
       icon: "/assets/icons/impact.svg",
       title: "Impact",
       description:
-        "Transformed a struggling product into a growth engine, reaching 6,000+ registered users within 12 months. Simultaneously delivered a new MVP, successfully acquiring 300+ early-stage users.",
+        "Scaled Hestiva from 10,000 to 16,000 registered users in six months and delivered a 45% uplift in paid conversion through structured A/B experimentation. Co-created KeyScout, growing it from zero to 500 users in seven months.",
     },
     {
       icon: "/assets/icons/scale.svg",

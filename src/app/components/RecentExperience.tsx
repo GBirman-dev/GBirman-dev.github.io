@@ -19,10 +19,11 @@ export function RecentExperience() {
             </p>
             <p className="text-gray-300 leading-relaxed max-w-md">
               Architected the brand and growth strategy for KeyScout's entry
-              into the Dutch rental market. By leading a strategic pivot and
-              platform relaunch, I doubled the user acquisition rate within six
-              months, outperforming all previous marketing efforts and securing
-              a sustainable competitive advantage.
+              into the Dutch rental market, growing the platform from zero to
+              500 users in seven months. By leading a strategic pivot and
+              platform relaunch, I doubled the user acquisition rate,
+              outperforming all previous marketing efforts and securing a
+              sustainable competitive advantage.
             </p>
           </div>
 

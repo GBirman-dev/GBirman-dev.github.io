@@ -20,11 +20,11 @@ export default function HestivaPlatforms() {
             to="/"
             className="text-sm font-bold tracking-wider uppercase text-[#1A2A22] hover:opacity-70 transition-opacity"
           >
-            GEORGE BIRMAN
+            GEORGI BIRMAN
           </Link>
           <div className="flex gap-3">
             <a
-              href="/Resume-Growth-Product-Manager-Georgi-Birman.pdf"
+              href="/Resume-Georgi-Birman.pdf"
               download
               className="px-5 py-2 text-sm bg-white border border-[#1A2A22] text-[#1A2A22] rounded-xl hover:bg-gray-50 transition-colors font-medium"
             >
@@ -69,10 +69,10 @@ export default function HestivaPlatforms() {
             {/* Quick facts */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { label: "Role", value: "Product Lead (UX & Growth)" },
+                { label: "Role", value: "Product Owner" },
                 { label: "Timeline", value: "2022–2023 & 2025–2026" },
                 { label: "Scope", value: "End-to-end product, growth, partnerships" },
-                { label: "Outcome", value: "6,000+ registered users & 3 large partnership contracts" },
+                { label: "Outcome", value: "16,000+ registered users & partnerships with HousingAnywhere and Kamernet" },
               ].map((fact) => (
                 <div key={fact.label}>
                   <p className="text-xs font-semibold tracking-wider uppercase text-[#1A2A22]/40 mb-1">
@@ -135,7 +135,7 @@ export default function HestivaPlatforms() {
                 vision into a functional product experience.
               </p>
               <p className="text-base text-gray-600 leading-relaxed">
-                In 2025, I stepped into the Product Lead role, taking ownership
+                In 2025, I stepped into the Product Owner role, taking ownership
                 of product direction and execution. Leading a small team of one
                 designer and two developers, I initiated and delivered the next
                 iteration of the platform (V3), focusing on scalability,
@@ -371,7 +371,7 @@ export default function HestivaPlatforms() {
               <ul className="space-y-3 mb-8">
                 {[
                   "Built and managed a YouTube channel to drive awareness",
-                  "Established early partnerships to expand platform reach",
+                  "Negotiated and closed affiliate partnerships with HousingAnywhere and Kamernet, creating a recurring revenue stream and expanding reach with high-intent traffic",
                   "Converted community engagement into product adoption",
                 ].map((item) => (
                   <li
@@ -398,13 +398,13 @@ export default function HestivaPlatforms() {
             {[
               {
                 icon: <Users className="w-6 h-6" />,
-                metric: "6,000+",
-                label: "Registered users within 12 months",
+                metric: "10k → 16k",
+                label: "Registered users in six months, a 60% increase through funnel optimization and repositioning",
               },
               {
                 icon: <TrendingUp className="w-6 h-6" />,
-                metric: "Retention ↑",
-                label: "Increased user retention through structured experience",
+                metric: "+45%",
+                label: "Uplift in paid conversion on a multi-step paywall through structured A/B experimentation",
               },
               {
                 icon: <Layers className="w-6 h-6" />,

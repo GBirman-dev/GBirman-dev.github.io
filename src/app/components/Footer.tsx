@@ -6,7 +6,7 @@ export function Footer() {
     <div className="max-w-7xl mx-auto w-full">
       <FooterLayout
         logo={null}
-        brandName="GEORGE BIRMAN"
+        brandName="GEORGI BIRMAN"
         socialLinks={[
           {
             icon: <Linkedin className="h-5 w-5" />,
@@ -15,7 +15,7 @@ export function Footer() {
           },
           {
             icon: <Mail className="h-5 w-5" />,
-            href: "mailto:mail.george.birman@gmail.com",
+            href: "mailto:birmangeorgi@gmail.com",
             label: "Email",
           },
         ]}
@@ -26,7 +26,7 @@ export function Footer() {
           { href: "/project/rawidea", label: "RAW IDEA" },
         ]}
         copyright={{
-          text: `© ${new Date().getFullYear()} VerseDesign Portfolio. All rights reserved.`,
+          text: `© ${new Date().getFullYear()} Georgi Birman. All rights reserved.`,
         }}
       />
     </div>

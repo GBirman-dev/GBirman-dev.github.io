@@ -20,11 +20,11 @@ export default function RawIdea() {
             to="/"
             className="text-sm font-bold tracking-wider uppercase text-[#1A2A22] hover:opacity-70 transition-opacity"
           >
-            GEORGE BIRMAN
+            GEORGI BIRMAN
           </Link>
           <div className="flex gap-3">
             <a
-              href="/Resume-Growth-Product-Manager-Georgi-Birman.pdf"
+              href="/Resume-Georgi-Birman.pdf"
               download
               className="px-5 py-2 text-sm bg-white border border-[#1A2A22] text-[#1A2A22] rounded-xl hover:bg-gray-50 transition-colors font-medium"
             >
