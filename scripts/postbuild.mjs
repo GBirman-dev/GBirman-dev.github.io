@@ -14,7 +14,7 @@ const routes = [
     path: "project/hestiva-platforms",
     title: "Hestiva Platforms Case Study — Georgi Birman",
     description:
-      "Scaling a community-driven real estate platform from social traction to product-market fit: 10k→16k registered users in six months, +45% paid conversion, and affiliate partnerships with HousingAnywhere and Kamernet.",
+      "Scaling a community-driven real estate platform from social traction to product-market fit: 10k→17k registered users in eight months, +45% paid conversion, and affiliate partnerships with HousingAnywhere and Kamernet.",
   },
   {
     path: "project/tanaruz-boats",

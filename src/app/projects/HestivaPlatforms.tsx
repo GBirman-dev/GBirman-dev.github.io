@@ -72,7 +72,7 @@ export default function HestivaPlatforms() {
                 { label: "Role", value: "Product Owner" },
                 { label: "Timeline", value: "2022–2023 & 2025–2026" },
                 { label: "Scope", value: "End-to-end product, growth, partnerships" },
-                { label: "Outcome", value: "16,000+ registered users & partnerships with HousingAnywhere and Kamernet" },
+                { label: "Outcome", value: "17,000+ registered users & partnerships with HousingAnywhere and Kamernet" },
               ].map((fact) => (
                 <div key={fact.label}>
                   <p className="text-xs font-semibold tracking-wider uppercase text-[#1A2A22]/40 mb-1">
@@ -398,8 +398,8 @@ export default function HestivaPlatforms() {
             {[
               {
                 icon: <Users className="w-6 h-6" />,
-                metric: "10k → 16k",
-                label: "Registered users in six months, a 60% increase through funnel optimization and repositioning",
+                metric: "10k → 17k",
+                label: "Registered users in eight months, a 70% increase through funnel optimization and repositioning",
               },
               {
                 icon: <TrendingUp className="w-6 h-6" />,
